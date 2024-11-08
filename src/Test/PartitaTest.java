@@ -7,14 +7,15 @@ import it.uniroma3.diadia.Partita;
 import it.uniroma3.diadia.ambienti.Labirinto;
 import it.uniroma3.diadia.ambienti.Stanza;
 import it.uniroma3.diadia.attrezzi.Attrezzo;
+import it.uniroma3.diadia.giocatore.Giocatore;
 
 public class PartitaTest {
 	private Stanza stanzaCorrente;
 	private Stanza stanzaVincente;
 	private boolean finita;
-	private int cfu;
 	private Labirinto labirinto;
 	private Partita partita;
+	private Giocatore giocatore;
 
 	@Before
 	public void setUp() {
