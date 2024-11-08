@@ -1,21 +1,20 @@
 package Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Before;
 import org.junit.Test;
 
 import it.uniroma3.diadia.Partita;
 import it.uniroma3.diadia.ambienti.Labirinto;
 import it.uniroma3.diadia.ambienti.Stanza;
-import it.uniroma3.diadia.attrezzi.Attrezzo;
-import it.uniroma3.diadia.giocatore.Giocatore;
 
 public class PartitaTest {
+	@SuppressWarnings("unused")
 	private Stanza stanzaCorrente;
 	private Stanza stanzaVincente;
-	private boolean finita;
+	@SuppressWarnings("unused")
 	private Labirinto labirinto;
 	private Partita partita;
-	private Giocatore giocatore;
 
 	@Before
 	public void setUp() {
